@@ -1,11 +1,16 @@
 body {
   font-family: sans-serif;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .file-upload {
-  background-color: #ffffff;
-  width: 600px;
+  width: 914px;
+  height: 50vw;
+  margin: 19px 83px 110px;
+  padding: 150px 195px;
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
   margin: 0 auto;
   padding: 20px;
 }
@@ -55,8 +60,12 @@ body {
 
 .image-upload-wrap {
   margin-top: 20px;
-  border: 4px dashed #1FB264;
   position: relative;
+padding: 99px 105px 94px 104px;
+  object-fit: contain;
+  border-radius: 10px; 
+  border:dashed  1.5px #35465d;
+  background-color: #ffffff;
 }
 
 .image-dropping,
@@ -75,10 +84,19 @@ body {
 }
 
 .drag-text h3 {
+	width: 50%;
   font-weight: 100;
   text-transform: uppercase;
-  color: #15824B;
-  padding: 60px 0;
+	font-family: NanumSquareR;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #35465d;
+	margin: 0 auto;
 }
 
 .file-upload-image {
@@ -113,4 +131,86 @@ body {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+
+.navbar-light .navvar-brand {
+font-family : NanumSquareR;
+	line-height: 1.68;
+	text-align: left;
+	color: #35464d;
+}
+
+.navbar-light .navbar-toggler{
+	border-color: #ffffff;
+}
+
+.section{
+	margin-top: 100px;
+}
+
+.title {
+	
+  font-family: NanumSquareR;
+  font-size: 44.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #35465d;
+	
+}
+
+.subtitle {
+	
+  font-family: NanumSquareR;
+  font-size: 33px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #35465d;
+	
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+	.navbar-brand .{
+		font-size:2rem;
+	}
+}
+
+.youtube-link{
+  
+  font-family: NanumSquareR;
+  font-size: 1.5rem;
+  line-height: 1.71;
+  text-align: center;
+  color: #f73737;
+text-decoration: underline;
+}
+
+.youtube-link:hover{
+  
+  font-family: NanumSquareR;
+  font-size: 1.5rem;
+  line-height: 1.71;
+  text-align: center;
+  color: #f73737;
+text-decoration: underline;
+}
+
+.youtube-icon{
+
+ width: 8%;
 }
